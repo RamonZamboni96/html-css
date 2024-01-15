@@ -1,0 +1,17 @@
+
+body {
+    background-color: rgba(127, 255, 212, 0.836);
+    font-family: 'Times New Roman', Times, serif   
+}
+h1 {
+    color:  darkblue;
+    background-color: rgb(127, 185, 204);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}

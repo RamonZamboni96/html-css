@@ -1,0 +1,38 @@
+
+        body {
+            background-image: radial-gradient(circle, #0057E1 55%, #2358AD );
+
+        }
+
+        * {
+
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        main {
+
+            background-color: rgba(255, 255, 255, 0.747);
+            width: 500px;
+            padding: 15px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 10px 10px 15px #303e61a2;
+
+
+
+        }
+        h1 {
+            text-align: center;
+            color: #a77f2a;
+            text-shadow: 5px 5px 8px  #6e541ba4;
+        }
+
+
+        p {
+            text-align: justify;
+
+        }
+
+        h2 {
+            color: #8B6D2E;
+        }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elementos</title>
+    <style>
+        
+        a {
+            text-decoration: none;
+            color: rgb(31, 30, 30);
+        }
+        
+        
+        a:visited {
+            color: rgb(31, 31, 31);
+        }
+        
+        a:hover {
+            color: black;
+            font-weight: bold;
+            font-size: 17px; 
+        }
+        a:hover::before {
+            content: '❯ ';
+
+        }
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+    
+    <h1>Link pra visitar</h1>
+    <ul type="none">
+
+        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a ></li>
+        <li><a href="https://www.instagram.com/">Instagram</a></li>
+        <li><a href="https://www.minecraft.net/pt-br">Minecraft</a></li>
+    </ul>
+   
+
+</body>
+</html>
